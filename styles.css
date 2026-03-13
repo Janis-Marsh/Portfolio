@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header CSS */
+header{
+    color: white;
+    background-color: rgb(108, 146, 228);
+    padding: 25px;
+    position: sticky;
+    width: 100%;
+}
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.name{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Nav CSS */
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 1em; 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(248, 174, 232);
+}
+
+/* Footer CSS */
+footer{
+    color: white;
+    background-color: rgb(108, 146, 228);
+    font-size: medium;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    /* Nav CSS */
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    /* Nav CSS */
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Nav CSS */
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

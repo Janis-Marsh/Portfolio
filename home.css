@@ -1,0 +1,299 @@
+/* Hero section CSS */
+
+.festive-regular {
+  font-family: "Festive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading-name{
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Skill & project card CSS */
+.skills{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 3rem;
+    gap: 2rem;
+}
+
+.skill-cards{
+    box-shadow: 0 1px 3px 1px lightgray;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.skills img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.skill-link{
+    text-decoration: none;
+    color: black;
+}
+
+.project-card{
+    text-align: center;
+}
+
+.project-card h3{
+    margin: 0.3rem;
+}
+
+.tip{
+    color: rgba(126, 124, 124, 0.685);
+    margin-top: 0.8rem;
+}
+
+/* Work button CSS */
+.work{
+    padding: 0.5rem;
+    background-color: rgb(160, 41, 196);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+}
+
+.work a{
+    color: white;
+    text-decoration: none;
+}
+
+.work a:hover{
+    color: rgb(248, 174, 232);
+}
+
+@media (min-width: 400px) {
+    /* Hero section CSS */
+    .heading-name{
+        padding: 3rem;
+        font-size: 2.5em;
+        color: white;
+        position: absolute;
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 576px) {
+    /* Hero section CSS */
+    .heading-name{
+        padding: 0;
+        font-size: 3.2em;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .hero img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hero-text{
+        color: black;
+    }
+}
+
+
+@media (min-width: 768px) {
+    /* Hero section CSS */
+    .heading-name{
+        padding: 0;
+        font-size: 4em;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .hero img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hero-text{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    /* Skill & project card CSS */
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 3rem;
+        gap: 2rem;
+    }
+
+    .project-card{
+        height: 280px;
+    }
+
+    /* Work button CSS */
+    .work{
+        grid-column: 2/3;
+        padding: 0.5rem;
+        background-color: rgb(160, 41, 196);
+        list-style-type: none;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    /* Hero section CSS */
+    .heading-name{
+        padding: 0;
+        font-size: 4em;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .hero img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hero-text{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    /* Skill & project card CSS */
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 3rem;
+        gap: 2rem;
+    }
+
+    .project-card{
+        height: 300px;
+    }
+
+    /* Work button CSS */
+    .work{
+        grid-column: 2/3;
+        padding: 1rem;
+        font-size: 1em;
+        background-color: rgb(160, 41, 196);
+        list-style-type: none;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Hero section CSS */
+    .heading-name{
+        padding: 0;
+        font-size: 6em;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .hero img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hero-text{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    /* Skill & project card CSS */
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 3rem;
+        gap: 2rem;
+    }
+
+    .project-card{
+        height: 335px;
+    }
+
+    /* Work button CSS */
+    .work{
+        grid-column: 2/3;
+        padding: 1rem;
+        font-size: 1em;
+        background-color: rgb(160, 41, 196);
+        list-style-type: none;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+}
