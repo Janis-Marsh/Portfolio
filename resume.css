@@ -1,0 +1,41 @@
+/* Resume CSS */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 5.5rem;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 0 5px lightgray;
+}
+
+.resume-header{
+    margin: 2rem;
+}
+
+.resume-header h1{
+    color: #105694;
+    margin-bottom: 0.5rem;
+}
+
+.resume-section{
+    margin: 2rem;
+}
+
+.resume-section li{
+    text-indent: 1rem;
+    list-style-position: inside;
+}
+
+.resume-section h3{
+    color: #105694;
+    text-transform: uppercase;
+    border-bottom: 2px solid #428aca;
+    margin-bottom: 1rem;
+}
