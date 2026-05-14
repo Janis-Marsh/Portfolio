@@ -7,6 +7,7 @@
 }
 
 .heading-name{
+    display: none;
     font-size: 1.5em;
     color: white;
     position: absolute;
@@ -94,6 +95,7 @@ h2{
 @media (min-width: 400px) {
     /* Hero section CSS */
     .heading-name{
+        display: block;
         padding: 3rem;
         font-size: 2.5em;
         color: white;
@@ -107,6 +109,7 @@ h2{
 @media (min-width: 576px) {
     /* Hero section CSS */
     .heading-name{
+        display: block;
         padding: 0;
         font-size: 3.2em;
         color: white;
@@ -136,6 +139,7 @@ h2{
 @media (min-width: 768px) {
     /* Hero section CSS */
     .heading-name{
+        display: block;
         padding: 0;
         font-size: 4em;
         color: white;
@@ -191,6 +195,7 @@ h2{
 @media (min-width: 1024px) {
     /* Hero section CSS */
     .heading-name{
+        display: block;
         padding: 0;
         font-size: 4em;
         color: white;
@@ -246,6 +251,7 @@ h2{
 @media (min-width: 1200px) {
     /* Hero section CSS */
     .heading-name{
+        display: block;
         padding: 0;
         font-size: 6em;
         color: white;
